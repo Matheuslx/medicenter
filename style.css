@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+
+.container{
+    display: flex;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    
+    display: flex;
+    align-items: center;
+  
+    padding: 10px;
+}
+
+nav ul,
+nav li{
+    
+    
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav ul{
+
+    display: flex;
+
+}
+
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    
+
+}
+
+nav a:hover{
+    color: #ffffff;
+    background-color: rgb(3, 147, 214);
+
+}
+
+section{
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+#textoBanner{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 330px;
+    
+    
+  
+}
+
+#textoBanner h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px rgb(3, 12, 53);
+    margin: 0px;
+    padding: 0px;
+    max-width: 300px;
+}
+#textoBanner h2{
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px rgb(3, 12, 53);
+    max-width: 350px;
+}
+
+#opcoesBanner{
+    display: flex;
+    height: 250px;
+    color: #ffffff;
+    
+    
+
+}
+
+.bannerTitle{
+    font-size: 25px;
+    
+    
+}
+
+.bannerDesc{
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.bannerButton{
+
+    background-color: rgba(40, 201, 201, 0);
+    color: #ffffff;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top:10px ;
+    width: 120px;
+
+}
+
+.bannerButton:hover{
+
+    background-color: #3156a3;
+
+}
+
+ .bannerHorarios{
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+    justify-content: space-between;
+    border-bottom: 1px solid #39aee1;
+    padding: 3px;
+} 
+
+.bannerHorarios:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+#banner1{
+    flex: 1;
+    background-color: #42b3e5;
+    padding: 0px 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#banner2{
+    flex: 1;
+    background-color: #0384ce;
+    padding: 0px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+#banner3{
+    flex: 1;
+    background-color: #3156a3;
+    padding: 0px 20px 0px;
+    
+}
+
+#banner3 h2{
+    margin-bottom: 0px;
+    
+}
+
+
+
+.column{
+    flex-direction: column;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+
+}
+
+#geral section{
+    display: flex;
+    flex:2;
+
+}
+
+#geral aside{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+
+}
+
+.widget_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.widget_title_bar{
+    height: 2px;
+    width: 50px;
+    background-color: #3156a3;
+    margin-top: 10px;
+}
+
+.widget_title_text{
+    color:black ;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_body{
+    display: flex;
+    
+}
+
+.departments_body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.widget_departments{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    background-color: #0384ce;
+    font-weight: bold;
+    color: #ffffff;
+    justify-content: center;
+    padding: 50px 0px;
+    
+}
+
+.widget_departments a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+
+.widget_departments:hover{
+    cursor: pointer;
+    background-color: #3156a3;
+}
+
+.widget_appointment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.appointment_text{
+    padding: 0px;
+    padding-bottom: 20px;
+    flex: 2;
+    color: gray;
+}
+.appointment_text p{
+    margin: 0px;
+}
+
+.appointment_content{
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+} 
+.appointment_content a{
+    color: gray;
+}
+.appointment_content a:hover{
+    color: rgb(50, 39, 99);
+}
+.appointment_content:hover{
+    color: #3156a3;
+    border-bottom: 1px solid #3156a3;
+}
+
+
+.appointment_icons{
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.latest{
+    width: 100%;
+}
+
+.latest_body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.noticias{
+    margin-bottom: 10px;
+    padding-right: 20px;
+    width: 50%;
+    height:400px;
+    display: flex;
+    flex-flow: column;
+}
+
+.data_noticia{
+    width: 100px;
+    background-color: #0384ce;
+    color:#ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imagem_noticia{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.imagem_noticia img{
+    width: 100%;
+}
+
+.titulo_noticia{
+    padding: 0px;
+    margin-bottom: 10px;
+    
+}
+.titulo_noticia h2{
+    margin: 0px;
+}
+
+.texto_noticia{
+    word-wrap: break-word;
+    overflow: hidden;
+    color: gray;
+    height: 300px;
+    
+}
+.texto_noticia p{
+    margin: 0px;
+}
+.local_noticia{
+    color: gray;
+    height: 200px;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+    
+}
+
+article{
+    padding: 0px;
+    margin: 0px;  
+}
+
+footer{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    background-color: #202020;
+}
+
+.footer_banners_width{
+    display: flex;
+    width: 100%;
+}
+
+.footer_banners{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #42b3e5;
+    height: 100px;
+    padding:30px ;
+    padding-top: 0px;
+}
+
+.footer_banner1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #42b3e5;
+    height: 100px;
+    padding:30px ;
+    padding-top: 5px;
+     
+}
+
+.footer_banner2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #0384ce;
+    height: 100px;
+    padding:30px ;
+    padding-top: 5px;
+}
+
+.footer_banner3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #3156a3;
+    height: 100px;
+    padding:30px ;
+    padding-top: 5px;
+}
+
+.footer_banner_title{
+    color: #ffffff;
+    margin: 0px;
+    margin-top: 10px;
+
+}
+
+.footer_banner_text{
+    height: 40px;
+    color: white;
+    
+}
+.footer_banner_text p{
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 15px;
+
+}
+
+.footer_widget_title_bar{
+    height: 3px;
+    width: 50px;
+    background-color: #42b3e5;
+    margin-top: 10px;
+}
+
+.footer_content{
+    display: flex;
+    background-color:#202020;
+    height: 300px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.footer_clinic{
+    flex:1;
+    padding-right: 20px;
+    
+}
+
+
+.footer_posts{
+    flex:1;
+    padding-right: 20px;
+}
+
+
+.footer_tweets{
+    flex:1;
+    padding-right: 20px;
+}
+
+.footer_content_title{
+    
+    margin-bottom: 40px;
+}
+.footer_content_title h3{
+    margin: 0px;
+}
+
+.footer_content_text{
+    font-size: 12px;
+    
+}
+
+.footer_last_post{
+    color: #39aee1;
+    font-size: 10px;
+}
+
+.social_medias{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+
+}
